@@ -1,19 +1,15 @@
 {
-  "name": "note_app",
+  "name": "notes-node",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/thanawatkie/notes.git"
-  },
-  "author": "",
+  "author": "Andrew Mead",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thanawatkie/notes/issues"
-  },
-  "homepage": "https://github.com/thanawatkie/notes#readme"
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "yargs": "^4.7.1"
+  }
 }
